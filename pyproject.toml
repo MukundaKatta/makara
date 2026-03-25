@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "makara"
+version = "0.1.0"
+description = "Web intelligence platform - scrape, analyze, and summarize web content using AI agents"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
